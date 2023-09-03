@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    padding: 0 5%
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 10px 0 20px;
+}
+
+#resultados{
+    text-align: center;
+    margin-top: 20px;
+}
+
+div{
+    width: 100%;
+    max-width: 500px;
+}
+
+.search{
+    display: flex;
+    margin-top: 10px;
+}
+
+input[type=text]{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    outline: 0;
+    margin-right: 10px;
+    transition: 0.4s ease-in-out;
+    
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 0;
+    border-bottom: 4px solid #1a1a1a !important;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #1c1c1c;
+    border-bottom: 4px solid #000000 !important;
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+table tr{
+    border-radius: 20px;
+}
+
+table tr td{
+    padding: 8px 7px;
+    border: 1px solid #ccc;
+}
